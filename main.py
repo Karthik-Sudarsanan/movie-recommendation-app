@@ -11,10 +11,10 @@ from tmdbv3api import TMDb, Movie
 
 # Initialize TMDb API
 tmdb = TMDb()
-tmdb.api_key = 'a66740866bb509f8fb0d7030fa2a2537'
+tmdb.api_key = 'YOUR_API_KEY'
 
 # OMDb API key
-omdb_api_key = '4725b71a'
+omdb_api_key = 'YOUR_OMDB_API_KEY'
 
 # Load the NLP model and TF-IDF vectorizer from disk
 filename = 'nlp_model.pkl'
